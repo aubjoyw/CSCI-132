@@ -22,6 +22,8 @@ public class Calculator {
     }
 
     public static double power_numbers(double x, double y) {
+        return java.lang.Math.pow(x, y);
+        /*
         double n = 1;
         if (y < 0){
             double l = 1;
@@ -35,9 +37,7 @@ public class Calculator {
             }
         }
         return n;
-        /*
-        return java.lang.Math.pow(x, y);
-         */
+        */
     }
 
 
