@@ -6,14 +6,14 @@ public class Rectangle {
     public double width;
 
 
-    public Rectangle(double x, double y){
-        height = x;
-        width = y;
+    public Rectangle(double l, double w){
+        height = l;
+        width = w;
     }
 
-    public Rectangle(double x) {
-        height = x;
-        width = x;
+    public Rectangle(double n) {
+        height = n;
+        width = n;
     }
 
     public double calculate_perimeter() {
