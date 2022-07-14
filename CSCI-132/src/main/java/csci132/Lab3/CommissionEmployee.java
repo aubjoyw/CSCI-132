@@ -11,7 +11,11 @@ public class CommissionEmployee extends Employee{
         gross_sales = sales;
     }
 
-    public void print_type() {
-        System.out.print("Employee type: Commission");
+    public void print_info() {
+        System.out.println("Employee type: Commission");
+        System.out.println("Employee name: " + first_name + " " + last_name);
+        System.out.println("ID number: " + id_number);
+        System.out.println("Commission rate: " + commission_rate);
+        System.out.print("Gross sales: " + gross_sales);
     }
 }

@@ -15,6 +15,11 @@ public class Employee {
         id_number = id;
     }
 
+    public void print_info(){
+        System.out.println("Employee name: " + first_name + " " + last_name);
+        System.out.print("ID number: " + id_number);
+    }
+
 
 
 }

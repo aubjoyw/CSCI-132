@@ -11,7 +11,11 @@ public class HourlyEmployee extends Employee{
         hours_worked = hours;
     }
 
-    public void print_type(){
-        System.out.print("Employee type: Hourly");
+    public void print_info(){
+        System.out.println("Employee type: Hourly");
+        System.out.println("Employee name: " + first_name + " " + last_name);
+        System.out.println("ID number: " + id_number);
+        System.out.println("Hourly wage: " + wage);
+        System.out.print("Hours worked: " + hours_worked);
     }
 }

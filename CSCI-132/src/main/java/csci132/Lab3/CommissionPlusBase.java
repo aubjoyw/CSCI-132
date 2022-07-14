@@ -10,7 +10,10 @@ public class CommissionPlusBase extends CommissionEmployee{
         base_salary = base;
     }
 
-    public void print_type() {
-        System.out.print("Employee type: Commission+Base");
+    public void print_info() {
+        System.out.println("Employee type: Commission+Base");
+        System.out.println("Commission rate: " + commission_rate);
+        System.out.println("Gross sales: " + gross_sales);
+        System.out.print("Base salary: " + base_salary);
     }
 }
